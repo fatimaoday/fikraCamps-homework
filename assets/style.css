@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Khula|Martel+Sans');
+
+#container{
+    width: 80%;
+    margin: auto;
+}
+
+#content{
+    display: flex;
+}
+
+#content #recent_links{
+    flex-grow: 2;
+    flex-basis: 30% ;
+}
+
+#content #most_viewed{
+    flex-grow: 1;
+}
+
+.article{
+    display: flex;
+    align-items: flex-end;
+}
+
+h3{
+    font-family: 'Martel Sans', sans-serif;
+}
+p{
+    font-family: 'Exo', sans-serif;
+}
+date{
+    font-family: 'Khula', sans-serif;
+}
+.text{
+    margin-left: 10px;
+}
+img{pointer-events: none;}
